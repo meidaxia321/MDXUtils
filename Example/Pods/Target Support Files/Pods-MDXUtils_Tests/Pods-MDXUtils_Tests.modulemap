@@ -1,0 +1,6 @@
+framework module Pods_MDXUtils_Tests {
+  umbrella header "Pods-MDXUtils_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

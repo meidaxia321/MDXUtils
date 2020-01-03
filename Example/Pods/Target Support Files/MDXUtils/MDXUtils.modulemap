@@ -1,0 +1,6 @@
+framework module MDXUtils {
+  umbrella header "MDXUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}
