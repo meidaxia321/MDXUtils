@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		017552A123BEFD940082DB66 /* UIImage+MJQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0175529F23BEFD940082DB66 /* UIImage+MJQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		017552A223BEFD940082DB66 /* UIImage+MJQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 017552A023BEFD940082DB66 /* UIImage+MJQRCode.m */; };
+		017552E723BF2A1F0082DB66 /* UIImage+MJQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 017552E523BF2A1F0082DB66 /* UIImage+MJQRCode.h */; };
+		017552E823BF2A1F0082DB66 /* UIImage+MJQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 017552E623BF2A1F0082DB66 /* UIImage+MJQRCode.m */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
 		138F6A4C9D438B0DD1D05A5AE5E14C92 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1E2D0B8DD6DE44A61DF9DE55146A7F /* ReplaceMe.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
@@ -67,8 +67,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0175529F23BEFD940082DB66 /* UIImage+MJQRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+MJQRCode.h"; sourceTree = "<group>"; };
-		017552A023BEFD940082DB66 /* UIImage+MJQRCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MJQRCode.m"; sourceTree = "<group>"; };
+		017552E523BF2A1F0082DB66 /* UIImage+MJQRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIImage+MJQRCode.h"; path = "MDXUtils/Classes/UIImage+MJQRCode.h"; sourceTree = "<group>"; };
+		017552E623BF2A1F0082DB66 /* UIImage+MJQRCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MJQRCode.m"; path = "MDXUtils/Classes/UIImage+MJQRCode.m"; sourceTree = "<group>"; };
 		034C6A5AD935E2664450A2A01D30BEE0 /* MDXUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MDXUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		04095380405BE85B300AA9699E86C477 /* Pods_MDXUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDXUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A17BA478B9151A235DF9224D1571A17 /* Pods-MDXUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MDXUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -168,21 +168,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0175529E23BEFD5E0082DB66 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0175529F23BEFD940082DB66 /* UIImage+MJQRCode.h */,
-				017552A023BEFD940082DB66 /* UIImage+MJQRCode.m */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
 		0A7B6288EE9EEDA793EF8B0E50EE6D85 /* MDXUtils */ = {
 			isa = PBXGroup;
 			children = (
 				BE1E2D0B8DD6DE44A61DF9DE55146A7F /* ReplaceMe.m */,
 				3631500361EB542536E2443150C3AACA /* Pod */,
 				B98598D2F3F01053E9380C1BDAE84481 /* Support Files */,
+				017552E523BF2A1F0082DB66 /* UIImage+MJQRCode.h */,
+				017552E623BF2A1F0082DB66 /* UIImage+MJQRCode.m */,
 			);
 			name = MDXUtils;
 			path = ../..;
@@ -208,7 +201,6 @@
 		3631500361EB542536E2443150C3AACA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0175529E23BEFD5E0082DB66 /* Classes */,
 				5B2D91F022FF018B70DD2CE2539E4E8D /* LICENSE */,
 				034C6A5AD935E2664450A2A01D30BEE0 /* MDXUtils.podspec */,
 				D8EE559935AFEB69AD90BDF1EBB25CE8 /* README.md */,
@@ -406,7 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6B76390305C2C1CF4D53C333A4E41F0 /* MDXUtils-umbrella.h in Headers */,
-				017552A123BEFD940082DB66 /* UIImage+MJQRCode.h in Headers */,
+				017552E723BF2A1F0082DB66 /* UIImage+MJQRCode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,7 +547,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22BFBDEF63325323FA2F48A3B12B18CA /* MDXUtils-dummy.m in Sources */,
-				017552A223BEFD940082DB66 /* UIImage+MJQRCode.m in Sources */,
+				017552E823BF2A1F0082DB66 /* UIImage+MJQRCode.m in Sources */,
 				138F6A4C9D438B0DD1D05A5AE5E14C92 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
