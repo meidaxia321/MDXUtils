@@ -7,6 +7,7 @@
 //
 
 #import "MDXUTILSViewController.h"
+#import "UIImage+MJQRCode.h"
 
 @interface MDXUTILSViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [[UIImage new]mj_qrcode];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

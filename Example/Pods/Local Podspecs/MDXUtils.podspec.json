@@ -18,14 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MDXUtils/Classes/**/*",
-  "frameworks": [
-    "UIKit",
-    "MapKit"
-  ],
-  "dependencies": {
-    "AFNetworking": [
-      "~> 3.2.1"
-    ]
-  }
+  "source_files": "MDXUtils/Classes/**/*"
 }

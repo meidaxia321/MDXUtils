@@ -1,34 +1,17 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
-  - AFNetworking/NSURLSession (3.2.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.1)
-  - AFNetworking/Security (3.2.1)
-  - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
-    - AFNetworking/NSURLSession
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - MDXUtils (0.1.0):
-    - AFNetworking (~> 3.2.1)
+  - MDXUtils (0.1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
   - MDXUtils (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - AFNetworking
+  trunk:
     - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
@@ -36,10 +19,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MDXUtils: d9281cb72f070359776e4bb620a0d246be676141
+  MDXUtils: 88709c3bd7dc7d243ebe1a4eb092d399421f4519
 
 PODFILE CHECKSUM: bb8c9e0b65a3468526e14da9a257961dc7c506cb
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.8.4
