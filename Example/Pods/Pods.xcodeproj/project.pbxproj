@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		017552E723BF2A1F0082DB66 /* UIImage+MJQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 017552E523BF2A1F0082DB66 /* UIImage+MJQRCode.h */; };
+		017552E723BF2A1F0082DB66 /* UIImage+MJQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 017552E523BF2A1F0082DB66 /* UIImage+MJQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		017552E823BF2A1F0082DB66 /* UIImage+MJQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 017552E623BF2A1F0082DB66 /* UIImage+MJQRCode.m */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
 		138F6A4C9D438B0DD1D05A5AE5E14C92 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1E2D0B8DD6DE44A61DF9DE55146A7F /* ReplaceMe.m */; };
